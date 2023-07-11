@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, section, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.orta{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.basliq{
+    text-align: center;
+    background-color: #f1f1f3;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    background-color: #444445;
+    position: fixed;
+    top: 40px;
+}
+
+.basliqlar{
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.Iphone-14{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Iphone-14 a{
+    width: 40%;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+h5{
+    
+    text-align: center;
+    font-size: 30px;
+
+}
+.learn{
+    color: #06c;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.learn:hover{
+    text-decoration: underline;
+}
+
+.telefon a img {
+    width: 1540px
+}
+
+.Iphone-14pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Iphone-14pro h5     {
+    color: white;
+}
+.pro{
+    color: white;
+}
+.whatch{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    align-items: center;
+    padding: 38px 0;
+}
+.whatch a{
+    color: #06c;
+}
+.apple-whatch{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+.basliqlar{
+    display: flex;
+    justify-content: space-between;
+}
+.apple-whatch i{
+    color: white;
+    font-size: 60px;
+    margin-bottom: -15px;
+    
+}
+.apple-whatch h1{
+    color: white;
+}
+.whatch p{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+.whatch h5{
+    color: white;
+}
+.alma{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.hamburger{
+    display: none;
+}
+
+
+
+header{
+    margin-top: 80px;
+    background-image: url('./hero_iphone14_preorder__c4g2wjzuugqe_large.jpg');
+    background-position: center;
+    height: 36em;
+}
+header .orta {
+    align-items: flex-start;
+}
+
+
+section.bir{
+    margin-top: 15px;
+    height: 36em;
+    background-position: center;
+    background-image: url('./hero_iphone14pro_preorder__cc1jjc6hq7ma_large.jpg');
+}
+
+
+section.iki{
+    margin-top: 15px;
+    height: 36em;
+    background-position: center;
+    background-image: url('./hero_apple_watch_series_8__bjc1ok5mkjua_large.jpg');
+}
+.card{
+    width: 49%;
+    height: 38em;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.uc{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.uc .card:first-child{
+    background-image: url('./promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg');
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.uc .apple-whatch i{
+    color: black;
+    font-size: 40px;
+    margin-top: 44px;
+}
+.uc .apple-whatch h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.ultra{
+    color: #fd9152;
+    font-size: 15px;
+}
+.uc .card:first-child p{
+    margin-top: 7px;
+    font-size: 28px;
+}
+.uc .card:first-child a{
+    color: #06c;
+    font-size: 20px;
+    margin-top: 10px;
+}
+    
+
+.uc .card:nth-child(2){
+    background-image: url(/promo_ipad_order__e95h67xinsa6_large.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.uc .card:nth-child(2) h1{
+    font-size: 40px;
+    margin-top: 70px;
+}
+.uc .card:nth-child(2) p{
+    font-size: 25px;
+    
+}
+.uc .card:nth-child(2) span{
+    margin-top: 15px;
+    font-size: 19px;
+    color: #6e6e73;
+}
+.uc .card:nth-child(2) a{
+    color: #06c;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.uc .card:nth-child(3){
+    background-image: url(/promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+}
+.uc .card:nth-child(3) span {
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+}
+.uc .card:nth-child(3) p{
+    color: white;
+    margin-top: -30px;
+    font-size: 24px;
+}
+.uc .card:nth-child(3) a{
+    margin-top: 10px;
+    color: #06c;
+}
+.uc .card:nth-child(4){
+    background-image: url(/promo_macbookair__fywl7i82fueu_large.png);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.uc .card:nth-child(4) span {
+    padding: 40px;
+    font-size: 48px;
+}
+
+.uc .card:nth-child(4) img{
+    margin-top: -35px;
+}
+.uc .card:nth-child(5){
+    background-image: url(/promo_ipadpro__ch217v9v7no2_large.jpg);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.uc .card:nth-child(5) span {
+    color: white;
+    margin-top: 40px;
+    font-size: 45px;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    color: white;
+    font-size: 24px;
+}
+.uc .card:nth-child(5) a{
+    margin-top: -8px;
+    font-size: 17px;
+}
+.uc .card:nth-child(6){
+    background-image: url(/promo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #000;
+}
+.uc .card:nth-child(6) span{
+    color: white;
+    margin-top: 50px;
+    font-size: 45px;
+}
+.uc .card:nth-child(6) a{
+    margin-top: -8px;
+    font-size: 17px;
+}
+footer .asagi{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+footer .asagi ul li a{
+    color: #424245;
+
+}
+footer li {
+    margin-bottom: 5px;
+   
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #f5f5f7;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .basliqlar ul{
+        display: none;
+    
+    }
+    .hamburger {
+        display:block;
+    }
+    .basliqlar{
+        display: flex;
+        justify-content: space-between;
+    }
+;
+    }
+   
+
+
+
+    
